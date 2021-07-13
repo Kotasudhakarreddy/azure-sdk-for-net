@@ -1,5 +1,21 @@
 # Release History
 
+## 14.0.0 (2021-06-01)
+
+### REST API version
+
+- This version targets REST API version 2021-01-01.
+
+### Features
+
+- Added new operations:
+  - Location_ListSupportedVirtualMachineSkus
+  - BatchAccount_ListOutboundNetworkDependenciesEndpoints
+- Added Managed Identity authentication mode.
+- Added User Assigned Identities.
+- Added Ephemeral OSDisk setting to VirtualMachineConfiguration.
+- Added 'DiffDiskPlacement' property to choose which location the operating system should be in.
+
 ## 13.0.0 (2021-01-01)
 
 ### REST API version
